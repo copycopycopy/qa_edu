@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Моя тестовая страница</title>
+	<link rel="stylesheet" href="style.css">
+  </head>
+
+<body> 
+<div id="CenterBlock">
+<h1>Регистрация</h1> 
+
+
+<form method="get">
+  <p>
+    <label for="login">Имя:</label>
+    <input type="text" required id="Имя" name="Имя" maxlength="10" / autofocus>
+</p>
+<p>
+     <label for="login">Фамилия:</label>
+     <input type="text" required id="Фамилия" name="Фамилия" maxlength="16" / autofocus>
+ </p>
+
+<p>
+
+<p>Выберете ваш пол:</p>
+ <input type="radio" required id="Мужской" name="gender" value="Мужской">
+  <label >Мужской</label>
+
+  <input type="radio" required id="Женский" name="gender" value="Женский"> 
+	 <label>Женский</label>
+
+<p>
+<label for="age">Возраст:</label>
+<input type="number" min="18" max="120" value="" id="age" name="age"/>
+</p>
+
+<p>
+<label for="email">Электронная почта (gmail.com only):</label>
+<input type="email" placeholder="test@gmail.com"
+pattern=".+@gmail.com" size="30" id="email" name="email" />
+</p>
+
+<p>
+<label for="url">Сайт (укажите https://):</label>
+<input type="url" placeholder="https://"
+pattern="(^https:\/\/.*\..{2,3}" size="30" id="url" name="url" />
+</p>
+
+
+
+<p>
+<label for="password">Пароль:</label>
+<input type="password" required id="password" name="password" />
+</p>
+
+
+
+<p>
+<label for="self_story">О себе:</label>
+<textarea name="message" id="self_story" maxlength="200"></textarea>
+</p>
+
+<p>
+<label for="agree_rules">Я согласен с правилами:</label>
+<input type="checkbox" required id="agree_rules" name="agree_rules" id="agree_rules"></textarea>
+</p>
+
+<p>
+<input type="submit" value="Отправить" />
+</p>
+</div>
+
+
+
+
+
+
+</form>
+</body> 
+</html>
