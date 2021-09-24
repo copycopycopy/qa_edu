@@ -1,7 +1,0 @@
-"# qa_edu" 
-"# qa_edu" 
-"# qa_edu" 
-"# qa_edu" 
-"# qa_edu" 
-"# qa_edu" 
-"# qa_edu" 
